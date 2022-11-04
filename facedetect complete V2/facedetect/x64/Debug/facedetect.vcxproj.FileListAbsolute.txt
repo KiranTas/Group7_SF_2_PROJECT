@@ -1,0 +1,49 @@
+C:\Users\nadak\Desktop\facedetect\facedetect\x64\Debug\facedetect.vcxproj.AssemblyReference.cache
+C:\Users\nadak\Desktop\facedetect\facedetect\x64\Debug\facedetect.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\nadak\Desktop\facedetect\facedetect\x64\Debug\facedetect.mainform.resources
+C:\Users\nadak\Desktop\facedetect\facedetect\x64\Debug\facedetect.vcxproj.GenerateResource.cache
+C:\Users\nadak\Desktop\facedetect\facedetect\x64\Debug\facedetect.login.resources
+C:\Users\nadak\Desktop\facedetect\facedetect\x64\Debug\facedetect.signup.resources
+C:\Users\nadak\Desktop\facedetect\facedetect\x64\Debug\facedetect.Login2.resources
+C:\Users\nadak\Desktop\facedetect\facedetect\x64\Debug\facedetect.detectionscreen.resources
+C:\Users\nadak\Desktop\facedetect\facedetect\x64\Debug\facedetect.teacher.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect (latest)\facedetect\x64\Debug\facedetect.vcxproj.AssemblyReference.cache
+C:\Users\pamna\OneDrive\Desktop\facedetect (latest)\facedetect\x64\Debug\facedetect.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\pamna\OneDrive\Desktop\facedetect (latest)\facedetect\x64\Debug\facedetect.detectionscreen.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect (latest)\facedetect\x64\Debug\facedetect.login.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect (latest)\facedetect\x64\Debug\facedetect.Login2.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect (latest)\facedetect\x64\Debug\facedetect.mainform.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect (latest)\facedetect\x64\Debug\facedetect.signup.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect (latest)\facedetect\x64\Debug\facedetect.teacher.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect (latest)\facedetect\x64\Debug\facedetect.vcxproj.GenerateResource.cache
+C:\Users\pamna\OneDrive\Desktop\facedetect (latest)\facedetect\x64\Debug\facedetect.stats.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect (latest with facial recog)\facedetect\x64\Debug\facedetect.vcxproj.AssemblyReference.cache
+C:\Users\pamna\OneDrive\Desktop\facedetect (latest with facial recog)\facedetect\x64\Debug\facedetect.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\pamna\OneDrive\Desktop\facedetect (latest with facial recog)\facedetect\x64\Debug\facedetect.detectionscreen.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect (latest with facial recog)\facedetect\x64\Debug\facedetect.login.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect (latest with facial recog)\facedetect\x64\Debug\facedetect.Login2.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect (latest with facial recog)\facedetect\x64\Debug\facedetect.mainform.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect (latest with facial recog)\facedetect\x64\Debug\facedetect.signup.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect (latest with facial recog)\facedetect\x64\Debug\facedetect.stats.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect (latest with facial recog)\facedetect\x64\Debug\facedetect.teacher.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect (latest with facial recog)\facedetect\x64\Debug\facedetect.vcxproj.GenerateResource.cache
+C:\Users\pamna\OneDrive\Desktop\facedetect complete V1\facedetect\x64\Debug\facedetect.vcxproj.AssemblyReference.cache
+C:\Users\pamna\OneDrive\Desktop\facedetect complete V1\facedetect\x64\Debug\facedetect.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\pamna\OneDrive\Desktop\facedetect complete V1\facedetect\x64\Debug\facedetect.detectionscreen.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect complete V1\facedetect\x64\Debug\facedetect.login.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect complete V1\facedetect\x64\Debug\facedetect.Login2.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect complete V1\facedetect\x64\Debug\facedetect.mainform.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect complete V1\facedetect\x64\Debug\facedetect.signup.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect complete V1\facedetect\x64\Debug\facedetect.stats.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect complete V1\facedetect\x64\Debug\facedetect.teacher.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect complete V1\facedetect\x64\Debug\facedetect.vcxproj.GenerateResource.cache
+C:\Users\pamna\OneDrive\Desktop\facedetect complete V2\facedetect\x64\Debug\facedetect.vcxproj.AssemblyReference.cache
+C:\Users\pamna\OneDrive\Desktop\facedetect complete V2\facedetect\x64\Debug\facedetect.vcxproj.SuggestedBindingRedirects.cache
+C:\Users\pamna\OneDrive\Desktop\facedetect complete V2\facedetect\x64\Debug\facedetect.detectionscreen.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect complete V2\facedetect\x64\Debug\facedetect.login.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect complete V2\facedetect\x64\Debug\facedetect.Login2.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect complete V2\facedetect\x64\Debug\facedetect.mainform.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect complete V2\facedetect\x64\Debug\facedetect.signup.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect complete V2\facedetect\x64\Debug\facedetect.stats.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect complete V2\facedetect\x64\Debug\facedetect.teacher.resources
+C:\Users\pamna\OneDrive\Desktop\facedetect complete V2\facedetect\x64\Debug\facedetect.vcxproj.GenerateResource.cache

@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <ProjectGuid>{81054CA0-7A53-4C7A-97A1-D65733D02713}</ProjectGuid>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <Keyword>ManagedCProj</Keyword>
+    <RootNamespace>facedetect</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CLRSupport>true</CLRSupport>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\opencv\build\lib\Debug;$(LibraryPath)</IncludePath>
+    <LibraryPath>C:\opencv\build\lib\Debug;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\opencv\build\lib\Debug;$(LibraryPath)</IncludePath>
+    <LibraryPath>C:\opencv\build\lib\Debug;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\opencv\build\lib\Debug;$(LibraryPath)</IncludePath>
+    <LibraryPath>C:\opencv\build\lib\Debug;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);C:\opencv\build\lib\Debug;$(LibraryPath)</IncludePath>
+    <LibraryPath>C:\opencv\build\lib\Debug;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opencv\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opencv_calib3d451d.lib;opencv_ccalib451d.lib;opencv_core451d.lib;opencv_datasets451d.lib;opencv_dnn_objdetect451d.lib;opencv_dnn_superres451d.lib;opencv_dnn451d.lib;opencv_dpm451d.lib;opencv_face451d.lib;opencv_features2d451d.lib;opencv_flann451d.lib;opencv_fuzzy451d.lib;opencv_gapi451d.lib;opencv_hfs451d.lib;opencv_highgui451d.lib;opencv_img_hash451d.lib;opencv_imgcodecs451d.lib;opencv_imgproc451d.lib;opencv_intensity_transform451d.lib;opencv_line_descriptor451d.lib;opencv_mcc451d.lib;opencv_ml451d.lib;opencv_objdetect451d.lib;opencv_optflow451d.lib;opencv_phase_unwrapping451d.lib;opencv_photo451d.lib;opencv_plot451d.lib;opencv_quality451d.lib;opencv_rapid451d.lib;opencv_reg451d.lib;opencv_rgbd451d.lib;opencv_saliency451d.lib;opencv_shape451d.lib;opencv_stereo451d.lib;opencv_stitching451d.lib;opencv_structured_light451d.lib;opencv_superres451d.lib;opencv_surface_matching451d.lib;opencv_text451d.lib;opencv_tracking451d.lib;opencv_video451d.lib;opencv_videoio451d.lib;opencv_videostab451d.lib;opencv_xfeatures2d451d.lib;opencv_ximgproc451d.lib;opencv_xobjdetect451d.lib;opencv_xphoto451d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>Windows</SubSystem>
+      <EntryPointSymbol>main</EntryPointSymbol>
+      <AdditionalLibraryDirectories>C:\opencv\install\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opencv\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opencv_calib3d451d.lib;opencv_ccalib451d.lib;opencv_core451d.lib;opencv_datasets451d.lib;opencv_dnn_objdetect451d.lib;opencv_dnn_superres451d.lib;opencv_dnn451d.lib;opencv_dpm451d.lib;opencv_face451d.lib;opencv_features2d451d.lib;opencv_flann451d.lib;opencv_fuzzy451d.lib;opencv_gapi451d.lib;opencv_hfs451d.lib;opencv_highgui451d.lib;opencv_img_hash451d.lib;opencv_imgcodecs451d.lib;opencv_imgproc451d.lib;opencv_intensity_transform451d.lib;opencv_line_descriptor451d.lib;opencv_mcc451d.lib;opencv_ml451d.lib;opencv_objdetect451d.lib;opencv_optflow451d.lib;opencv_phase_unwrapping451d.lib;opencv_photo451d.lib;opencv_plot451d.lib;opencv_quality451d.lib;opencv_rapid451d.lib;opencv_reg451d.lib;opencv_rgbd451d.lib;opencv_saliency451d.lib;opencv_shape451d.lib;opencv_stereo451d.lib;opencv_stitching451d.lib;opencv_structured_light451d.lib;opencv_superres451d.lib;opencv_surface_matching451d.lib;opencv_text451d.lib;opencv_tracking451d.lib;opencv_video451d.lib;opencv_videoio451d.lib;opencv_videostab451d.lib;opencv_xfeatures2d451d.lib;opencv_ximgproc451d.lib;opencv_xobjdetect451d.lib;opencv_xphoto451d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\opencv\install\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opencv\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opencv_calib3d451d.lib;opencv_ccalib451d.lib;opencv_core451d.lib;opencv_datasets451d.lib;opencv_dnn_objdetect451d.lib;opencv_dnn_superres451d.lib;opencv_dnn451d.lib;opencv_dpm451d.lib;opencv_face451d.lib;opencv_features2d451d.lib;opencv_flann451d.lib;opencv_fuzzy451d.lib;opencv_gapi451d.lib;opencv_hfs451d.lib;opencv_highgui451d.lib;opencv_img_hash451d.lib;opencv_imgcodecs451d.lib;opencv_imgproc451d.lib;opencv_intensity_transform451d.lib;opencv_line_descriptor451d.lib;opencv_mcc451d.lib;opencv_ml451d.lib;opencv_objdetect451d.lib;opencv_optflow451d.lib;opencv_phase_unwrapping451d.lib;opencv_photo451d.lib;opencv_plot451d.lib;opencv_quality451d.lib;opencv_rapid451d.lib;opencv_reg451d.lib;opencv_rgbd451d.lib;opencv_saliency451d.lib;opencv_shape451d.lib;opencv_stereo451d.lib;opencv_stitching451d.lib;opencv_structured_light451d.lib;opencv_superres451d.lib;opencv_surface_matching451d.lib;opencv_text451d.lib;opencv_tracking451d.lib;opencv_video451d.lib;opencv_videoio451d.lib;opencv_videostab451d.lib;opencv_xfeatures2d451d.lib;opencv_ximgproc451d.lib;opencv_xobjdetect451d.lib;opencv_xphoto451d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\opencv\install\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\opencv\install\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>opencv_calib3d451d.lib;opencv_ccalib451d.lib;opencv_core451d.lib;opencv_datasets451d.lib;opencv_dnn_objdetect451d.lib;opencv_dnn_superres451d.lib;opencv_dnn451d.lib;opencv_dpm451d.lib;opencv_face451d.lib;opencv_features2d451d.lib;opencv_flann451d.lib;opencv_fuzzy451d.lib;opencv_gapi451d.lib;opencv_hfs451d.lib;opencv_highgui451d.lib;opencv_img_hash451d.lib;opencv_imgcodecs451d.lib;opencv_imgproc451d.lib;opencv_intensity_transform451d.lib;opencv_line_descriptor451d.lib;opencv_mcc451d.lib;opencv_ml451d.lib;opencv_objdetect451d.lib;opencv_optflow451d.lib;opencv_phase_unwrapping451d.lib;opencv_photo451d.lib;opencv_plot451d.lib;opencv_quality451d.lib;opencv_rapid451d.lib;opencv_reg451d.lib;opencv_rgbd451d.lib;opencv_saliency451d.lib;opencv_shape451d.lib;opencv_stereo451d.lib;opencv_stitching451d.lib;opencv_structured_light451d.lib;opencv_superres451d.lib;opencv_surface_matching451d.lib;opencv_text451d.lib;opencv_tracking451d.lib;opencv_video451d.lib;opencv_videoio451d.lib;opencv_videostab451d.lib;opencv_xfeatures2d451d.lib;opencv_ximgproc451d.lib;opencv_xobjdetect451d.lib;opencv_xphoto451d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\opencv\install\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="detectionscreen.cpp" />
+    <ClCompile Include="Lecture_c.cpp" />
+    <ClCompile Include="login.cpp" />
+    <ClCompile Include="Login2.cpp" />
+    <ClCompile Include="mainform.cpp" />
+    <ClCompile Include="signup.cpp" />
+    <ClCompile Include="stats.cpp" />
+    <ClCompile Include="teacher.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="detectionscreen.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="FaceRec.h" />
+    <ClInclude Include="Lecture_c.h" />
+    <ClInclude Include="login.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="Login2.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="mainform.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="signup.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="stats.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+    <ClInclude Include="teacher.h">
+      <FileType>CppForm</FileType>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="detectionscreen.resx">
+      <DependentUpon>detectionscreen.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="login.resx">
+      <DependentUpon>login.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login2.resx">
+      <DependentUpon>Login2.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainform.resx">
+      <DependentUpon>mainform.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="signup.resx">
+      <DependentUpon>signup.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stats.resx">
+      <DependentUpon>stats.h</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="teacher.resx">
+      <DependentUpon>teacher.h</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
